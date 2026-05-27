@@ -2,7 +2,7 @@
 namespace offsets
 {
 // core engine offsets (unchanged)
-inline std:trdiff_t uworld_pointer = 0x0A4B02F0;
+inline std:trdiff_t uworld_pointer = 0x0A4B02F0; [SUCCESS] -> Uworld: 0xC2B5640 // sigs changed again
 inline std:trdiff_t game_instance = 0x1D8;
 inline std:trdiff_t gamestate = 0x0178;
 inline std:trdiff_t persistent_level = 0x38;
@@ -37,6 +37,7 @@ inline std:trdiff_t shieldtype = 0x118;
 inline std:trdiff_t shieldlife = 0x124;
 inline std:trdiff_t shieldmaxlife = 0x128;
 inline std:trdiff_t damagesections = 0x1c8;
+[SUCCESS] -> TriggerVeh: 0x17C1CA6 //sigs changed again
 
 // mesh/rendering (unchanged)
 inline std:trdiff_t mesh = 0x04f0;
