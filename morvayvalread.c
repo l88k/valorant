@@ -10,9 +10,6 @@
  *
  * note: Riot Vanguard (vgk) blocks RPM in live matches.
  *       run during lobby or training range without vgk loaded.
- *
- * offsets: patch 12.09  — update GWorld when the game patches.
- */
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
@@ -21,28 +18,10 @@
 #include <stdint.h>
 #include <string.h>
 #include <stdlib.h>
+#include "offsets.h"
 
-#define GWorld        0xA7C38C0ULL
-#define FNamePool     0xA547C00ULL
-#define FNameState    0xA57ACC0ULL
-#define GObjects      0xEE2700ULL
+//read to offsets.h
 
-#define GameState     0x178
-#define PlayerArray   0x480
-#define PawnPrivate   0x4E8
-#define RootComponent 0x290
-#define RelativeLoc   0x170
-#define DamageHandler 0xC68
-#define Health        0x200
-#define TeamComponent 0x6A8
-#define TeamId        0xE8
-
-#define FNameChunkSize  0x4000
-#define FNameMaxChunks  512
-
-static HANDLE    hProc  = NULL;
-static uint64_t  base   = 0;
-static uint32_t  xorKey = 0;
 
 /* process helpers */
 
