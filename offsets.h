@@ -2,7 +2,7 @@
 namespace offsets
 {
 // core engine offsets (unchanged)
-inline std:trdiff_t uworld_pointer = 0x0A4B02F0; [SUCCESS] -> Uworld: 0xC2B5640 // sigs changed again
+inline std:trdiff_t uworld_pointer = 0x0A4B02F0; // [SUCCESS] -> Uworld: 0xC2B5640 sigs changed again
 inline std:trdiff_t game_instance = 0x1D8;
 inline std:trdiff_t gamestate = 0x0178;
 inline std:trdiff_t persistent_level = 0x38;
