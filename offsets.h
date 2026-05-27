@@ -9,10 +9,10 @@ inline std:trdiff_t persistent_level = 0x38;
 inline std:trdiff_t localplayers_array = 0x480;
 inline std:trdiff_t localplayer = 0x40;
 inline std:trdiff_t player_controller = 0x38;
-inline std:trdiff_t player_camera_manager = 0x528; // UPDATED: was 0x520
+inline std:trdiff_t player_camera_manager = 0x528; // updated: was 0x520
 inline std:trdiff_t camera_private = 0x20a0;
-inline std:trdiff_t camera_manager = 0x528; // UPDATED: was 0x520
-inline std:trdiff_t control_rotation = 0x04E8; // UPDATED: was 0x04E0
+inline std:trdiff_t camera_manager = 0x528; // updated: was 0x520
+inline std:trdiff_t control_rotation = 0x04E8; // updated: was 0x04E0
 inline std:trdiff_t fname_pool = 0xA547C00;
 inline std:trdiff_t outline_mode = 0x31640D0;
 inline std:trdiff_t outline_component = 0x0D80;
@@ -31,7 +31,7 @@ inline std:trdiff_t root_component = 0x0290;
 inline std:trdiff_t root_position = 0x0170;
 
 // health/damage
-inline std:trdiff_t damage_handler = 0x0C68; // UPDATED: was 0x0C50
+inline std:trdiff_t damage_handler = 0x0C68; // updated: was 0x0C50
 inline std:trdiff_t health = 0x0200;
 inline std:trdiff_t shieldtype = 0x118;
 inline std:trdiff_t shieldlife = 0x124;
@@ -53,7 +53,7 @@ inline std:trdiff_t relative_rotation = 0x170;
 
 // team Related
 inline std:trdiff_t team_component = 0x6a8;
-inline std:trdiff_t team_id = 0xE8; // UPDATED: was 0xF8
+inline std:trdiff_t team_id = 0xE8; // updated: was 0xF8
 inline std:trdiff_t was_ally = 0xf68;
 
 // minimap/UI (unchanged)
@@ -65,11 +65,11 @@ inline std:trdiff_t VisibilityComponent = 0x538;
 inline std:trdiff_t CharactersWithVisibility = 0x118;
 inline std:trdiff_t bIsVisible = 0x521;
 inline std:trdiff_t bLocalObserver = 0x550;
-inline std:trdiff_t dormant = 0x225; // Keep original, test 0xd8 if issues
+inline std:trdiff_t dormant = 0x225; // keep original, test 0xd8 if issues
 
 // actor Management
 inline std:trdiff_t actor_array = 0xa0;
 inline std:trdiff_t actors_count = 0xa8;
 inline std:trdiff_t actor_id = 0x18;
-inline std:trdiff_t unique_id = 0x30; // UPDATED: was 0x38
+inline std:trdiff_t unique_id = 0x30; // updated: was 0x38
 }
