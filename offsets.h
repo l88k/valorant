@@ -45,7 +45,7 @@ constexpr uintptr_t CurrentEquippable = 0x0278;
 
 
 
-testing's sign;;
+//testing's sign;;
 
 
 fmemory_malloc = 0xC84080
